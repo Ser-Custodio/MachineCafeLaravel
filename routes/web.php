@@ -23,10 +23,6 @@ Route::get('/boissons', function () {
     return view('boissons');
 });
 
-Route::get('/ingredients', function () {
-    return view('ingredients');
-});
-
 Route::get('/monnayeur', function () {
     return view('monnayeur');
 });
@@ -38,3 +34,5 @@ Route::get('/recettes', function () {
 Route::get('/ventes', function () {
     return view('ventes');
 });
+
+Route::get('ingredients', 'IngredientsController@IngTable');

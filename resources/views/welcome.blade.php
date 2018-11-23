@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <link href='{{("css/app.css")}}' rel="stylesheet" type="text/css" >
         <title>Laravel</title>
 
         <!-- Fonts -->
@@ -81,7 +81,11 @@
                 <div class="title m-b-md">
                     Hello World
                 </div>
-
+                <div class='row'>
+                    <button class='btn btn-lg btn-success col-sm-offset-1 col-sm-2'>Ajouter</button>
+                    <button class='btn btn-lg btn-primary col-sm-offset-2 col-sm-2'>Modifier</button>
+                    <button class='btn btn-lg btn-danger col-sm-offset-2 col-sm-2'>Supprimer</button>
+                </div>
                 <div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>
                     <a href="https://laracasts.com">Laracasts</a>
